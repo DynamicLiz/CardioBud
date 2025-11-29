@@ -1,7 +1,6 @@
 from telegram.ext import Updater, CommandHandler
-import os
 
-BOT_TOKEN = os.getenv("8376707878:AAFNAVK1GTL9BWLLG6YKOQME8DIGNW2AZZE")
+BOT_TOKEN = 8220693959:AAHLSHfJBt7LJmet0-CquZWU4SE0uJuOl1o
 
 def start(update, context):
     update.message.reply_text("✅ Bot is connected!")
